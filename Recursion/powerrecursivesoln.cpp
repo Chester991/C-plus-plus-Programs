@@ -7,7 +7,7 @@ int power(int p,int q){
 }
 
 int main(){
-    int result = power(2,0);
+    int result = power(2,6);
     cout<<result<<endl;
     return 0;
 }
