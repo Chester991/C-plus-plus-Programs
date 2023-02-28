@@ -20,6 +20,7 @@ signed main()
     {
         cin >> a[i];
     }
+    cout<<endl;
     int p[n];
     p[0] = a[0];
     for (int i = 1; i < n; i++)
@@ -29,4 +30,7 @@ signed main()
     for(auto i:p){
         cout<<i<<endl;
     }
+    cout<<endl;
+    int sum = accumulate(p,p+n,0);
+    cout<<sum<<endl;
 }
