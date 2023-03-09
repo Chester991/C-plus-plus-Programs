@@ -75,6 +75,6 @@ int main()
     s1.push(88); // will not go inside as stack overflow
     cout << s1.peek() << endl;
     s1.pop();
-    cout<<s1.peek()<<endl;
+    cout<<s1.peek() <<endl;
     return 0;
 }
