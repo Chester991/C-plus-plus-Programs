@@ -25,6 +25,7 @@ int main(){
     cout<<r.length<<" "<<r.breadth<<endl;
     cout<<endl;
     Rectangle r3 = r;
+    cout<<r3.length<<" "<<r3.breadth<<endl;
     
     return 0;
 }
