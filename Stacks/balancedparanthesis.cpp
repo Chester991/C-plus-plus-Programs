@@ -54,8 +54,4 @@ int main()
       cout << "Valid brackets" << endl;
       return 1;
    }
-   else{
-      cout << "Invalid brackets" << endl;
-      return 0;
-   }
 }
